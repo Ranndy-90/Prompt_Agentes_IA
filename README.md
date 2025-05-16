@@ -1,104 +1,85 @@
-#  README: Sistema de Agentes de IA para Gestión de Proyectos Basado en Markdown
+# README: 🤖 Sistema de Agentes de IA para Gestión de Proyectos Basado en Markdown 📄
 
-**Fecha de Creación (Sistema de Agentes):** 2025-05-16 CST
-
-
-**Desarrollado por: Ranndy Salas Umaña** - 
-**GitHub:** https://github.com/Ranndy-90/Prompt_Agentes_IA
+**Fecha de Creación (Sistema de Agentes):** 2025-05-15 22:55:30 CST 🗓️
+**Versión del Sistema de Agentes:** 1.2 (Incluye referencia al Agente Maestro del IDE)
 
 
-**Versión del Sistema de Agentes:** 1.0
+**Autor del Sistema y Prompts:** Ranndy Salas Umaña 
+**Repositorio:** [https://github.com/Ranndy-90/Prompt_Agentes_IA]
 
-## 1. Propósito de Este Documento
+## 1. Propósito de Este Documento y Repositorio 🎯
 
-Este `README.md` describe la estructura, configuración y operación del sistema de Agentes de Inteligencia Artificial (IA) diseñado para gestionar y ejecutar proyectos de desarrollo de software de manera autónoma, utilizando exclusivamente archivos Markdown (`.md`) para la comunicación, la gestión de artefactos y la documentación.
+Este `README.md` y el contenido de este repositorio describen la estructura, configuración y operación de un sistema de Agentes de Inteligencia Artificial (IA) diseñado para gestionar y ejecutar proyectos de desarrollo de software de manera autónoma. El sistema se fundamenta en el uso exclusivo de archivos Markdown (`.md`) para la comunicación, la gestión de artefactos y toda la documentación del proyecto.
 
-El objetivo es proporcionar una guía clara para cualquier persona que necesite entender, configurar, utilizar o mantener este sistema de agentes.
+El objetivo es proporcionar una guía clara y los recursos necesarios (prompts, definiciones de roles, estructura documental) para cualquier persona que necesite entender, configurar, utilizar, replicar o contribuir a este sistema de agentes.
 
-## 2. Visión General del Sistema de Agentes
+## 2. Visión General del Sistema de Agentes 💡
 
-Este sistema se compone de dos tipos principales de agentes de IA:
+Este sistema se compone de varios niveles de configuración para los agentes de IA:
 
-1.  **ACP (Asistente de Configuración de Proyectos):** Un agente de IA de tarea única, responsable de la generación inicial de toda la estructura de carpetas y la documentación base del proyecto.
-2.  **Agentes Especializados de Rol Scrum:** Un equipo de agentes de IA que asumen los roles Scrum (Product Owner, Scrum Master, Development Team con sus especialidades) y operan de forma continua y autónoma para ejecutar el proyecto, basándose en la infraestructura documental creada por el ACP.
+1.  **Agente Maestro del IDE (Configuración Base Universal):**
+    * Representa la configuración fundamental y las directrices de comportamiento que se aplican a **todos** los agentes de IA que operan a través del IDE para este sistema. Estas son las "Instrucciones Personalizadas para Todos los Modos" y definen el "ADN" común, como el idioma, el profesionalismo, la adherencia a la documentación del proyecto y los principios generales de operación.
 
-Todos los agentes interactúan y progresan en el proyecto a través de la creación, modificación y lectura de un conjunto estructurado de archivos `.md` dentro de un directorio de proyecto dedicado.
+2.  **ACP (Asistente de Configuración de Proyectos) Estratégico:**
+    * Un agente de IA de **tarea única**, que opera bajo las directrices del Agente Maestro del IDE, y es responsable de la generación inicial de toda la estructura de carpetas y la documentación base (plantillas, guías, políticas, roles) para un nuevo proyecto de software. Prepara el terreno para los agentes especializados.
 
-## 3. Configuración y Uso de los Agentes en el IDE
+3.  **Agentes Especializados de Rol Scrum:**
+    * Un equipo de agentes de IA que asumen los roles Scrum tradicionales (Product Owner, Scrum Master, y miembros del Development Team con especialidades como UX/UI, Frontend, Backend y QA).
+    * Cada uno opera bajo las directrices del Agente Maestro del IDE, y adicionalmente, con su propio conjunto de "Instrucciones Personalizadas para el Modo (Prompt de Rol y Operación Autónoma)" que define sus responsabilidades y ciclo operativo específico.
+    * Estos agentes operan de forma **continua y autónoma** después de la configuración inicial del ACP, ejecutando el proyecto y colaborando a través de los archivos Markdown.
 
-Cada agente de IA (tanto el ACP como los agentes especializados) se configura en el IDE proporcionando tres componentes clave para su "Modo" de operación:
+Todos los agentes interactúan y progresan en el proyecto mediante la creación, modificación y lectura de un conjunto estructurado de archivos `.md` dentro de un directorio de proyecto dedicado, el cual es generado por el ACP.
 
-1.  **Definición del Rol, Experiencia y Personalidad:**
-    * Describe la identidad, el tono, el enfoque principal, el nivel de expertise simulado y las habilidades clave del agente. Este componente define la "persona" del agente de IA.
+## 3. Componentes Clave del Sistema de Agentes (Contenido del Repositorio) 🧩
 
-2.  **Cuándo Usar este Modo (para el IDE):**
-    * Proporciona una descripción clara de cuándo el modo específico de este agente es más efectivo y para qué tipos de tareas es más adecuado. Ayuda al usuario del IDE a seleccionar el agente correcto para la acción deseada.
+Este repositorio contiene:
 
-3.  **Instrucciones Personalizadas para el Modo (Prompt de Rol y Operación Autónoma):**
-    * Este es el **prompt principal y más detallado** que se le da al agente. Contiene su objetivo específico, los documentos `.md` clave que debe analizar y/o generar, su ciclo operativo autónomo, las heurísticas para la toma de decisiones y su rutina de trabajo. Es, en esencia, el "programa" o "sistema operativo" del agente para ese rol.
+* **Instrucciones para el Agente Maestro del IDE:** El archivo `INSTRUCCIONES_BASE_AGENTE_MAESTRO_IDE.md` (o como lo hayas nombrado) que contiene las "Instrucciones Personalizadas para Todos los Modos". Este es el primer nivel de configuración.
+* **Definiciones Detalladas de Agentes Especializados:** Para el ACP y cada rol Scrum, se proporcionan:
+    * `Definición del Rol, Experiencia y Personalidad`: Describe la "persona" del agente.
+    * `Cuándo Usar este Modo (para el IDE)`: Guía para la selección de la tarea del agente.
+    * `Instrucciones Personalizadas para el Modo (Prompt de Rol y Operación Autónoma)`: El prompt detallado y fundamental que define el comportamiento, las responsabilidades y el ciclo operativo del agente, complementando las instrucciones del Agente Maestro del IDE.
+* **Estructura Documental del Proyecto:** Las plantillas y el contenido inicial que el ACP generaría para un nuevo proyecto, incluyendo artefactos Scrum, protocolos, guías, políticas, etc.
+* **Metodología Subyacente:** Un marco Scrum adaptado para la colaboración asíncrona de agentes de IA, con un fuerte énfasis en seguridad, tecnologías modernas, estándares internacionales, y gestión de datos.
 
-### 3.1. Agente ACP (Asistente de Configuración de Proyectos)
+## 4. Configuración y Uso de los Agentes en un IDE 🛠️
 
-* **Fin del ACP:**
-    * El ACP es un agente de **tarea única y ejecución inicial**. Su único propósito es ejecutar el "Prompt para el Asistente de Configuración de Proyectos (ACP) Estratégico" (que se le proporciona como `${userInput}` en el modo "Iniciar nueva tarea" del IDE).
-    * Este prompt le instruye para crear toda la estructura de carpetas y el conjunto inicial de archivos `.md` (plantillas, guías, políticas, roles, etc.) que el proyecto necesita para comenzar.
-    * Una vez que el ACP ha completado esta generación, **su función en el proyecto ha terminado.** No participa en los Sprints ni en la operación continua del proyecto.
-* **Configuración en el IDE:**
-    * **Solicitud de Soporte (Tipo de Tarea):** "Iniciar nueva tarea".
-    * **Definición del Rol, Experiencia y Personalidad:** (Referirse al documento Markdown específico del ACP).
-    * **Cuándo Usar este Modo:** (Referirse al documento Markdown específico del ACP - usar solo una vez al inicio del proyecto).
-    * **Instrucciones Personalizadas para el Modo (`${userInput}`):** El "Prompt para el Asistente de Configuración de Proyectos (ACP) Estratégico" completo.
-* **Orden de Uso:** El ACP es el **PRIMER** agente que se ejecuta para un nuevo proyecto.
+1.  **Configuración del Agente Maestro del IDE (Una Sola Vez):**
+    * En la sección del IDE para "Instrucciones personalizadas para todos los modos", ingresar el contenido del archivo `INSTRUCCIONES_BASE_AGENTE_MAESTRO_IDE.md`. Esto establece el comportamiento fundamental para cualquier agente invocado.
 
-### 3.2. Agentes Especializados de Rol Scrum
+2.  **Agente ACP (Asistente de Configuración de Proyectos):**
+    * **Función:** Ejecutar una **única vez** al inicio de un nuevo proyecto.
+    * **Configuración en IDE:**
+        * **Solicitud de Soporte (Tipo de Tarea):** "Iniciar nueva tarea".
+        * **Instrucciones Personalizadas para el Modo (`${userInput}`):** Utilizar el "Prompt para el Asistente de Configuración de Proyectos (ACP) Estratégico" completo.
+    * **Resultado:** Creación de la estructura de carpetas y todos los archivos `.md` iniciales del proyecto.
 
-Estos agentes (`@AN (PO)`, `@CD (SM)`, `@DUX (Dev Team)`, `@EDF (Dev Team)`, `@EDB (Dev Team)`, `@EPS (Dev Team)`) están diseñados para operar de forma continua y autónoma después de que el ACP haya configurado la infraestructura documental.
+3.  **Agentes Especializados de Rol Scrum (`@AN (PO)`, `@CD (SM)`, `@DUX`, `@EDF`, `@EDB`, `@EPS`):**
+    * **Función:** Operar de forma continua y autónoma durante todo el ciclo de vida del proyecto.
+    * **Configuración en IDE (para cada agente):**
+        * **Solicitud de Soporte (Tipo de Tarea):** Generalmente "Iniciar nueva tarea" para activar un ciclo operativo, o un modo de operación continua si el IDE lo soporta.
+        * **Instrucciones Personalizadas para el Modo:** Utilizar el "Prompt de Rol y Operación Autónoma" específico y completo para ese rol. Estas instrucciones son la **configuración específica del rol** que se suma a las instrucciones del Agente Maestro del IDE.
+        * **Activación (`${userInput}` para "Iniciar nueva tarea"):** Un comando breve para que el agente (ya configurado con sus instrucciones de rol y las generales del Agente Maestro) ejecute su ciclo de trabajo o se enfoque en una tarea.
 
-* **Fin de los Agentes Especializados:**
-    * Cada agente especializado ejecuta las responsabilidades de su rol Scrum (Product Owner, Scrum Master, o miembro del Development Team con una especialidad) interactuando con los archivos `.md` según su "Prompt de Rol y Operación Autónoma".
-    * Colaboran asíncronamente a través de `chats_entre_agentes.md` y modificando los artefactos `.md` relevantes.
-    * Su objetivo es desarrollar el producto `[NOMBRE DEL PROYECTO]` siguiendo el proceso Scrum adaptado.
-* **Configuración en el IDE (para cada agente especializado):**
-    * **Solicitud de Soporte (Tipo de Tarea):** Generalmente "Iniciar nueva tarea" para activar un ciclo operativo, o un modo de operación continua si el IDE lo soporta.
-    * **Definición del Rol, Experiencia y Personalidad:** (Referirse al documento Markdown específico de cada rol, ej., `product_owner_AN.md` en la sección de descripción del rol).
-    * **Cuándo Usar este Modo:** (Referirse al documento Markdown específico de cada rol - generalmente indica operación continua durante todo el proyecto).
-    * **Instrucciones Personalizadas para el Modo:** El "Prompt de Rol y Operación Autónoma" completo y específico para ese rol. Este prompt es la configuración base o "sistema operativo" persistente del agente para su rol. El `${userInput}` al activar el modo "Iniciar nueva tarea" sería un comando para ejecutar su ciclo (ej., "Ejecutar ciclo operativo como @AN (PO)").
-* **Orden de Uso:** Se activan después de que el ACP ha completado su trabajo y el Sprint 000 de revisión y adaptación de la documentación ha comenzado. Operan en paralelo y de forma continua.
+## 5. Flujo de Interacción del Sistema 🔄
 
-## 4. Estructura de la Documentación Generada y Relación entre Agentes
+1.  Se configuran las **Instrucciones del Agente Maestro del IDE**.
+2.  El **ACP** se ejecuta primero (heredando el comportamiento base del Agente Maestro y siguiendo su prompt específico) y crea la infraestructura documental.
+3.  Los **Agentes Especializados** se "activan". Cada uno hereda el comportamiento base del Agente Maestro y sigue adicionalmente su propio "Prompt de Rol y Operación Autónoma".
+4.  Cada agente consulta su archivo de rol en `/documentacion_general/roles_y_responsabilidades/` y la `guia_operativa_del_equipo.md` para entender su contexto y cómo proceder.
+5.  El `@CD (SM)` comienza a facilitar el proceso Scrum.
+6.  La colaboración y el progreso se registran en `chats_entre_agentes.md` y en la modificación de los artefactos `.md`.
 
-El ACP genera una estructura de carpetas (detallada en `folder_structure_guide.md`) que contiene:
+## 6. Propósito de Este Repositorio 🎯
 
-* **Documentos Fundamentales (Raíz):** `README.md` (este archivo, si es sobre el sistema de agentes, o el del proyecto si es para el proyecto en sí), `communication_protocol.md`, `scrum_process_overview.md`, etc. Estos establecen las reglas del juego.
-* **Artefactos Scrum:** `product_backlog.md`, `definition_of_done.md`, y plantillas para Sprints en `/sprints/`.
-* **Roles y Responsabilidades:** En `/documentacion_general/roles_y_responsabilidades/`, cada agente especializado encuentra su descripción de rol detallada y cómo debe operar. Estas descripciones se basan en los "Prompts de Rol y Operación Autónoma".
-* **Documentación Técnica, de Diseño y Pruebas:** Plantillas y guías en `/documentacion_general/` para que los agentes especializados las completen.
-* **Chat Central:** `chats_entre_agentes.md` es el nexo de comunicación donde los agentes interactúan, notifican progreso, hacen preguntas y reportan impedimentos.
+Este repositorio sirve como:
+* Un **"blueprint"** para construir y configurar un equipo de agentes de IA capaces de gestionar proyectos de software.
+* Un **conjunto de prompts avanzados** y detallados para guiar el comportamiento de dichos agentes.
+* Un **ejemplo de un sistema de gestión de proyectos** completamente basado en Markdown y operado por IA.
+* Una base para la **investigación y experimentación** en colaboración de IA, desarrollo de software autónomo y flujos de trabajo ágiles en entornos distribuidos y asíncronos.
 
-### Flujo de Interacción (Simplificado):
+## 7. Contribuciones y Licencia 📝
 
-1.  **ACP** crea toda la estructura y documentación inicial. Su última acción es escribir el mensaje de bienvenida en `chats_entre_agentes.md`.
-2.  Los agentes especializados (`@AN (PO)`, `@CD (SM)`, `@DevelopmentTeam`) se "activan".
-3.  Cada agente consulta su archivo de rol en `/documentacion_general/roles_y_responsabilidades/` y la `guia_operativa_del_equipo.md` para entender su contexto y cómo proceder.
-4.  El `@CD (SM)` comienza a facilitar el proceso Scrum, iniciando el Sprint 000 (cuya planificación está en `sprint_000_backlog.md`).
-5.  El `@AN (PO)` comienza a gestionar el `product_backlog.md`.
-6.  El `@DevelopmentTeam` (DUX, EDF, EDB, EPS) comienza a trabajar en las tareas del `sprint_000_backlog.md` y luego en los PBIs de los sprints subsiguientes, cada uno enfocándose en sus especialidades pero colaborando a través de `chats_entre_agentes.md` y los archivos `.md` compartidos.
-7.  Todos los agentes deben **analizar primero `chats_entre_agentes.md`** para obtener las últimas actualizaciones y luego los archivos específicos de su rol o tareas actuales (`sprint_X_backlog.md`, `product_backlog.md`, etc.).
+(Placeholder: "[Considera añadir información sobre cómo otros podrían contribuir a este sistema de agentes, si es un proyecto abierto, y bajo qué licencia se distribuye (ej. MIT, Apache 2.0).]")
 
-## 5. Importancia de los Prompts de Rol ("Instrucciones Personalizadas")
-
-Los documentos de "Instrucciones Personalizadas para el Modo (Prompt de Rol y Operación Autónoma)" para cada agente especializado son **CRUCIALES**. Definen:
-
-* Su identidad y objetivo.
-* Los archivos `.md` clave que deben analizar y con los que deben interactuar.
-* Su ciclo operativo autónomo (qué hacen, en qué orden).
-* Cómo se comunican y colaboran con otros agentes.
-* Las heurísticas y directrices para su toma de decisiones (seguridad, estándares, herramientas, etc.).
-
-Estos prompts deben ser la **configuración base y persistente** para cada agente especializado en el IDE.
-
-## 6. Mantenimiento y Evolución del Sistema
-
-Este sistema de agentes y su documentación base están diseñados para ser el punto de partida. El equipo (los agentes de IA, bajo la facilitación del `@CD (SM)`) puede y debe proponer mejoras a los procesos, plantillas y guías durante las Sprint Retrospectives. Los cambios acordados se reflejarán en la actualización de los archivos `.md` correspondientes.
-
-Este `README.md` debe ser consultado por cualquier persona que necesite entender cómo está diseñado y cómo opera este sistema de desarrollo de software autónomo basado en agentes de IA y Markdown.
+---
