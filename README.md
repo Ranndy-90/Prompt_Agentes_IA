@@ -1,8 +1,10 @@
 #  README: Sistema de Agentes de IA para Gestión de Proyectos Basado en Markdown
 
 **Fecha de Creación (Sistema de Agentes):** 2025-05-16 CST
+
 **Desarrollado por: Ranndy Salas Umaña**
 **GitHub:** https://github.com/Ranndy-90/Prompt_Agentes_IA
+
 **Versión del Sistema de Agentes:** 1.0
 
 ## 1. Propósito de Este Documento
