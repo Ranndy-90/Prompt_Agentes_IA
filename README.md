@@ -28,25 +28,25 @@ La organización de este repositorio es crucial para entender y gestionar las de
 /Prompt_Agentes_IA/
 ├── /AGENTES_DEFINICIONES_Y_PROMPTS/  # Contiene los prompts completos para cada agente especializado
 │   ├── /ACP_Asistente_Configuracion_Proyectos/
-│   │   └── v1.0_ACP_Asistente_Configuracion_Proyectos_Prompt.md # Archivo único por versión
+│   │   └── vx.x_ACP_Asistente_Configuracion_Proyectos_Prompt.md # Archivo único por versión
 │   │   └── ... (futuras versiones)
 │   ├── /Pepe_PO/  # Product Owner
-│   │   └── v1.0_Pepe_PO_Agente_IA_Prompt.md
+│   │   └── vx.x_Pepe_PO_Agente_IA_Prompt.md
 │   │   └── ...
 │   ├── /Isma_SM/   # Scrum Master
-│   │   └── v1.0_Isma_SM_Agente_IA_Prompt.md
+│   │   └── vx.x_Isma_SM_Agente_IA_Prompt.md
 │   │   └── ...
 │   ├── /Dory_DUXIs_DevTeam/ # UX/UI Designer Specialist
-│   │   └── v1.0_Dory_DUXIs_Agente_IA_Prompt.md
+│   │   └── vx.x_Dory_DUXIs_Agente_IA_Prompt.md
 │   │   └── ...
 │   ├── /Melody_DevFS_DevTeam/ # Development Frontend Specialist
-│   │   └── v1.0_Melody_DevFS_Agente_IA_Prompt.md
+│   │   └── vx.x_Melody_DevFS_Agente_IA_Prompt.md
 │   │   └── ...
 │   ├── /Topa_DevBS_DevTeam/    # Development Backend Specialist
-│   │   └── v1.0_Topa_DevBS_Agente_IA_Prompt.md
+│   │   └── vx.x_Topa_DevBS_Agente_IA_Prompt.md
 │   │   └── ...
 │   └── /Voro_QAs_DevTeam/       # Quality Assurance Specialist
-│       └── v1.0_Voro_QAs_Agente_IA_Prompt.md
+│       └── vx.x_Voro_QAs_Agente_IA_Prompt.md
 │       └── ...
 │
 ├── /INSTRUCCIONES_BASE_ROOCODE/ # Contiene las directrices fundamentales para todos los agentes
@@ -77,7 +77,7 @@ Cada archivo `vX.X_NombreAgente_Rol_Agente_IA_Prompt.md` (ubicado dentro de la c
 
 ### 2.3. Directrices Globales para Roo Code 🧬
 
-* El archivo (versionado) en la carpeta `/INSTRUCCIONES_BASE_ROOCODE/` (ej. `v1.0_RooCode_Directrices_Globales_Agente_Maestro.md`) contiene las **directrices fundamentales y universales** que se aplican a CUALQUIER modo operando en Roo Code para este sistema.
+* El archivo (versionado) en la carpeta `/INSTRUCCIONES_BASE_ROOCODE/` (ej. `vx.x_RooCode_Directrices_Globales_Agente_Maestro.md`) contiene las **directrices fundamentales y universales** que se aplican a CUALQUIER modo operando en Roo Code para este sistema.
 * **Función para Roo Code:** Este contenido se configura como las **"Custom Instructions for All Modes"** en la Prompts Tab del IDE de Roo Code, o potencialmente como parte de un archivo `.roo/rules/00-global-directives.md` (o `.roorules`) a nivel de workspace en el proyecto generado por el ACP. Define el "ADN" o comportamiento común a todos los agentes, incluyendo el uso general de las herramientas de Roo Code, la interacción con MCP, la conciencia de los Checkpoints, y los principios operativos.
 * **Estrategia:** Estas instrucciones base son el primer nivel de configuración que Roo Code considera. Las "Instrucciones Personalizadas" de cada modo (cargadas desde `.roo/rules-{slug_del_modo}/` o definidas en el JSON del modo) las complementan y especializan, sin contradecirlas, gracias al orden de combinación de prompts de Roo Code.
 
@@ -110,7 +110,7 @@ La implementación de estos agentes como Modos Personalizados en Roo Code sigue 
 2.  **Configurar cada Agente Especializado como un Modo Personalizado en Roo Code:**
     * Para cada agente (`ACP`, `@Pepe`, `@Isma`, etc.):
         * Navegue a la carpeta del agente en `/AGENTES_DEFINICIONES_Y_PROMPTS/` (ej. `/Pepe_PO/`).
-        * Seleccione el archivo de la versión más reciente del prompt completo (ej. `v1.0_Pepe_PO_Agente_IA_Prompt.md`).
+        * Seleccione el archivo de la versión más reciente del prompt completo (ej. `vx.x_Pepe_PO_Agente_IA_Prompt.md`).
         * **En Roo Code (preferentemente editando el archivo `.roomodes` del proyecto que el ACP generará, o el `custom_modes.json` global si se desea un modo global):**
             * **`slug`:** Defina un slug único y descriptivo (ej. "acp-project-setup", "po-pepe", "sm-isma", "dux-dory", "devfs-melody", "devbs-topa", "qas-voro").
             * **`name`:** Use el nombre descriptivo y amigable del agente (ej. "⚙️ ACP Configurator", "🦉 @Pepe (PO)", " facilita @Isma (SM)", "🎨 @Dory (DUXIs - Dev Team)", "💻 @Melody (DevFS - Dev Team)", "🔩 @Topa (DevBS - Dev Team)", "🧪 @Voro (QAs - Dev Team)").
