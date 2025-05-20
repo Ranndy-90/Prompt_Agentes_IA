@@ -5,16 +5,16 @@ proyecto: Sistema de Agentes IA para Roo Code
 version_documento: "1.3"
 fecha_creacion: "2025-05-17"
 creado_por: "Ranndy Salas U."
-ultima_modificacion: "2025-05-19 11:09:13 PM CST"
+ultima_modificacion: "2025-05-20 09:34:37 AM CST"
 modificado_por: "Gemy (IA)"
 propietario_funcional: "Ranndy Salas U."
 estado_documento: "Activo"
-resumen_ultima_gestion: "Actualización de la entrada del historial para Karito v1.0 (Marketing) y corrección de ruta de archivo."
+resumen_ultima_gestion: "Actualización del prompt ACP a v1.1, integrando al agente @Karito (MK&N) y actualizando el historial."
 ---
 
 # Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
 
-**Última Actualización:** 2025-05-19 11:09:13 PM CST
+**Última Actualización:** 2025-05-20 09:34:37 AM CST
 
 **Autor del Sistema y Prompts:** Ranndy Salas Umaña
 
@@ -37,6 +37,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 0.1     | 2025-05-15  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/ACP_Asistente_Configuracion_Proyectos/v0.1_ACP_Asistente_Configuracion_Proyectos_Prompt.md | Prompt Completo V0.1      | Versión inicial del prompt ACP, sin detalles específicos de la configuración avanzada de Roo Code.                                                                     |
 | 1.0     | 2025-05-17  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/ACP_Asistente_Configuracion_Proyectos/v1.0_ACP_Asistente_Configuracion_Proyectos_Prompt.md | Prompt Completo V1.0      | Refinamiento para Roo Code. Incluye generación de `.roomodes`, estructura `.roo/rules-{slug}/`, `.rooignore`, y detalles de configuración de modos personalizados. |
 
+1.1     | 2025-05-20  | @ACP         | /AGENTES_DEFINICIONES_Y_PROMPTS/ACP_Asistente_Configuracion_Proyectos/v1.1_ACP_Asistente_Configuracion_Proyectos_Prompt.md | Prompt Completo V1.1      | Integración del agente @Karito (MK&N) en el proceso de configuración inicial de proyectos. Actualización de la estructura de carpetas, .roomodes, README y documentación de roles para incluir al nuevo agente. |
 ---
 ## @Pepe (PO) - Analista de Negocio / Product Owner
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                                       |
@@ -88,10 +89,12 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 
 ---
 ---
-## @Karito (MN) Agentes Especializados de Negocio / Marketing
+## @Karito (MK&N) Agentes Especializados de Negocio / Marketing
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                         | Tipo de Archivo      | Resumen de Cambios Significativos                                                                                                                                                                                                                                                                              |
 |---------|-------------|------------------|------------------------------------------------------------------------------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0     | 2025-05-19  | Gemy (IA)        | /AGENTES_DEFINICIONES_Y_PROMPTS/Karito_Mark_Neu/v1.0_Karito_(MK).md                       | Diseño Agente V1.0   | Refinamiento del diseño inicial. Se actualiza la ruta del archivo a la ubicación correcta. Se detalla la sección de comunicación inter-agente para un mayor apego al protocolo ACP y se especifica la colaboración con @DUX (Dev Team) para fortalecer la interacción de Karito con otros agentes como Dory. |
+| 1.0     | 2025-05-19  | Gemy (IA)        | /AGENTES_DEFINICIONES_Y_PROMPTS/Karito_Mark_Neu/v1.0_Karito_(MK&N).md                       | Diseño Agente V1.0   | Refinamiento del diseño inicial. Se actualiza la ruta del archivo a la ubicación correcta. Se detalla la sección de comunicación inter-agente para un mayor apego al protocolo ACP y se especifica la colaboración con @DUX (Dev Team) para fortalecer la interacción de Karito con otros agentes como Dory. |
+
+---
 ## Documentos Generales del Repositorio
 | Nombre del Archivo (Ruta Relativa)                                                                                                | Versión    | Fecha       | Modificado por     | Tipo de Documento                             | Resumen de Cambios                                                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------|-------------|--------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
