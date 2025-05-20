@@ -77,7 +77,7 @@ Cada archivo `vX.X_NombreAgente_Rol_Agente_IA_Prompt.md` (ubicado dentro de la c
 
 ### 2.3. Directrices Globales para Roo Code 🧬
 
-* El archivo (versionado) en la carpeta `/INSTRUCCIONES_BASE_ROOCODE/` (ej. `vx.x_RooCode_Directrices_Globales_Agente_Maestro.md`) contiene las **directrices fundamentales y universales** que se aplican a CUALQUIER modo operando en Roo Code para este sistema.
+* El archivo (versionado) en la carpeta `/INSTRUCCIONES_BASE_ROOCODE/` (ej. `vx.x.x_Directrices_Globales_AgenteMaestro_RooCode.md`) contiene las **directrices fundamentales y universales** que se aplican a CUALQUIER modo operando en Roo Code para este sistema.
 * **Función para Roo Code:** Este contenido se configura como las **"Custom Instructions for All Modes"** en la Prompts Tab del IDE de Roo Code, o potencialmente como parte de un archivo `.roo/rules/00-global-directives.md` (o `.roorules`) a nivel de workspace en el proyecto generado por el ACP. Define el "ADN" o comportamiento común a todos los agentes, incluyendo el uso general de las herramientas de Roo Code, la interacción con MCP, la conciencia de los Checkpoints, y los principios operativos.
 * **Estrategia:** Estas instrucciones base son el primer nivel de configuración que Roo Code considera. Las "Instrucciones Personalizadas" de cada modo (cargadas desde `.roo/rules-{slug_del_modo}/` o definidas en el JSON del modo) las complementan y especializan, sin contradecirlas, gracias al orden de combinación de prompts de Roo Code.
 
@@ -104,7 +104,7 @@ Este sistema de prompts está diseñado para aprovechar al máximo las siguiente
 La implementación de estos agentes como Modos Personalizados en Roo Code sigue un proceso de configuración claro:
 
 1.  **Configurar las Directrices Globales de Roo Code (Una Sola Vez por Workspace/Globalmente):**
-    * Copie el contenido completo del archivo de la versión más reciente en `/INSTRUCCIONES_BASE_ROOCODE/` (ej. `v1.0_RooCode_Directrices_Globales_Agente_Maestro.md`).
+    * Copie el contenido completo del archivo de la versión más reciente en `/INSTRUCCIONES_BASE_ROOCODE/` (ej. `vx.x.x_Directrices_Globales_AgenteMaestro_RooCode.md`).
     * Péguelo en la sección "Custom Instructions for All Modes" en la Prompts Tab de Roo Code. Alternativamente, si se prefiere una configuración a nivel de workspace, el ACP podría generar este contenido en un archivo como `.roo/rules/00-global-directives.md` dentro del proyecto.
 
 2.  **Configurar cada Agente Especializado como un Modo Personalizado en Roo Code:**

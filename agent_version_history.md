@@ -2,19 +2,19 @@
 nombre_archivo: agent_version_history.md
 titulo_documento: Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
 proyecto: Sistema de Agentes IA para Roo Code
-version_documento: "1.2"
+version_documento: "1.3"
 fecha_creacion: "2025-05-17"
 creado_por: "Ranndy Salas U."
-ultima_modificacion: "2025-05-19 04:06:35 PM CST"
+ultima_modificacion: "2025-05-19 11:09:13 PM CST"
 modificado_por: "Gemy (IA)"
 propietario_funcional: "Ranndy Salas U."
 estado_documento: "Activo"
-resumen_ultima_gestion: "Actualización del propio historial de versiones con una nueva entrada."
+resumen_ultima_gestion: "Actualización de la entrada del historial para Karito v1.0 (Marketing) y corrección de ruta de archivo."
 ---
 
 # Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
 
-**Última Actualización:** 2025-05-19 15:45:00 PM CST
+**Última Actualización:** 2025-05-19 11:09:13 PM CST
 
 **Autor del Sistema y Prompts:** Ranndy Salas Umaña
 
@@ -87,6 +87,11 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/v1.0_EPS_QA_Prompt_Completo.md       | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Voro_QAs_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                                |
 
 ---
+---
+## @Karito (MN) Agentes Especializados de Negocio / Marketing
+| Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                         | Tipo de Archivo      | Resumen de Cambios Significativos                                                                                                                                                                                                                                                                              |
+|---------|-------------|------------------|------------------------------------------------------------------------------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 2025-05-19  | Gemy (IA)        | /AGENTES_DEFINICIONES_Y_PROMPTS/Karito_Mark_Neu/v1.0_Karito_(MK).md                       | Diseño Agente V1.0   | Refinamiento del diseño inicial. Se actualiza la ruta del archivo a la ubicación correcta. Se detalla la sección de comunicación inter-agente para un mayor apego al protocolo ACP y se especifica la colaboración con @DUX (Dev Team) para fortalecer la interacción de Karito con otros agentes como Dory. |
 ## Documentos Generales del Repositorio
 | Nombre del Archivo (Ruta Relativa)                                                                                                | Versión    | Fecha       | Modificado por     | Tipo de Documento                             | Resumen de Cambios                                                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------|-------------|--------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -110,6 +115,6 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | `/Fuente_Conocimiento_Agentes/Roo Code Docs/Versiones anteriores/Prompt_Principal_Roo_Code v0.1.md`                               | v0.1       | (Desconocido)| (Desconocido)      | Documentation Roo Code (Prompt Ant.)          | Versión 0.1 del prompt principal de Roo Code. Añadido al historial.                                                                                                                                               |
 | `/Fuente_Conocimiento_Agentes/Roo Code Docs/Versiones anteriores/Prompt.md`                                                       | v0.x (Est.)| (Desconocido)| (Desconocido)      | Documentación Roo Code (Prompt Ant.)          | Versión anterior genérica de un prompt. Añadido al historial.                                                                                                                                                     |
 | `/Fuente_Conocimiento_Agentes/Roo Code Docs/Versiones anteriores/Roo Code dentro de VSCode.md`                                      | v0.x (Est.)| (Desconocido)| (Desconocido)      | Documentación Roo Code (Ant.)                 | Versión anterior de documentación sobre Roo Code en VSCode. Añadido al historial.                                                                                                                                |
-| `/agent_version_history.md`<agent_version_history.md:1>                                                              | 1.2        | 2025-05-19  | Gemy (IA)          | Historial de Versionamiento                 | Actualización del propio historial de versiones con una nueva entrada.                                                                                                                                            |
+| [`agent_version_history.md`](agent_version_history.md)                                                              | 1.3        | 2025-05-19  | Gemy (IA)          | Historial de Versionamiento                 | Actualización de la entrada del historial para Karito v1.0 (Marketing) y corrección de ruta de archivo.                                                                                                             |
 
 ---

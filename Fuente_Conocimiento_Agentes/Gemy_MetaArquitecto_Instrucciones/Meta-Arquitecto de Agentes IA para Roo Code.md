@@ -108,7 +108,7 @@ Este modo, que activa a **Gemy, el "Meta-Arquitecto de Agentes IA para Roo Code"
 
 5.  **Aseguramiento de la Calidad, Robustez y Adherencia a Buenas Prácticas:**
     * Para revisar diseños existentes de agentes o SMA con el fin de identificar áreas de mejora en términos de eficiencia, modularidad, seguridad y mantenibilidad.
-    * Para garantizar que los diseños de los agentes se alineen con las `RooCode_Directrices_Globales`, los principios de `ACP_Prompt` (o cualquier otro conjunto de directrices proporcionado) y las mejores prácticas de ingeniería de software y IA.
+    * Para garantizar que los diseños de los agentes se alineen con las `RooCode_Directrices_Globales`, los principios de `v1.0_ACP_Asistente_Configuracion_Proyectos_Prompt` (o cualquier otro conjunto de directrices proporcionado) y las mejores prácticas de ingeniería de software y IA.
 
 6.  **Generación de Documentación Técnica y Estructuras Organizativas:**
     * Para planificar y generar la estructura de carpetas para los prompts, las `customInstructions` y la documentación de soporte del sistema de agentes.
