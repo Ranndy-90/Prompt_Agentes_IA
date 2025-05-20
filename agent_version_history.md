@@ -2,14 +2,14 @@
 nombre_archivo: agent_version_history.md
 titulo_documento: Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
 proyecto: Sistema de Agentes IA para Roo Code
-version_documento: "1.1" # Incremento la versión del historial por los cambios masivos
+version_documento: "1.2"
 fecha_creacion: "2025-05-17"
 creado_por: "Ranndy Salas U."
-ultima_modificacion: "2025-05-19 15:45:00 PM CST" # Hora actual aprox.
+ultima_modificacion: "2025-05-19 04:06:35 PM CST"
 modificado_por: "Gemy (IA)"
-propietario_funcional: "Ranndy Salas U." # Dueño intelectual
+propietario_funcional: "Ranndy Salas U."
 estado_documento: "Activo"
-resumen_ultima_gestion: "Actualización integral de rutas, nombres de archivo y adición de todos los prompts v1.0 y archivos de definición de rol tras reorganización de carpetas y archivos."
+resumen_ultima_gestion: "Actualización del propio historial de versiones con una nueva entrada."
 ---
 
 # Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
@@ -38,7 +38,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-17  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/ACP_Asistente_Configuracion_Proyectos/v1.0_ACP_Asistente_Configuracion_Proyectos_Prompt.md | Prompt Completo V1.0      | Refinamiento para Roo Code. Incluye generación de `.roomodes`, estructura `.roo/rules-{slug}/`, `.rooignore`, y detalles de configuración de modos personalizados. |
 
 ---
-## @AN (PO) - Analista de Negocio / Product Owner Estratégico y Orientado a Datos
+## @Pepe (PO) - Analista de Negocio / Product Owner
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                                       |
 |---------|-------------|------------------|---------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1     | 2025-05-19  | (Desconocido)    | /AGENTES_DEFINICIONES_Y_PROMPTS/Pepe_PO/@AN (PO) - Analista de Negocio  Product Owner v0.1.md | Definición Rol Concisa | Versión inicial concisa de la definición de rol del PO, potencialmente para `roleDefinition` en `.roomodes` o README. Nombre de archivo original conservado por solicitud del usuario. |
@@ -46,7 +46,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Pepe_PO/v1.0_AN_PO_Prompt_Completo.md             | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Pepe_PO_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                                |
 
 ---
-## @CD (SM) - Coordinadora de Desarrollo / Scrum Master Estratégico y Coach Ágil
+## @Isma (SM) - Coordinadora de Desarrollo / Scrum Master
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                              | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                       |
 |---------|-------------|------------------|-------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 2025-05-16  | (Desconocido)    | /AGENTES_DEFINICIONES_Y_PROMPTS/Isma_SM/v1.0.0_CD_SM_Rol_Agente.md              | Definición Rol Concisa  | **Archivo de definición de rol concisa. Nombre conservado por solicitud del usuario (negación a revertir).**                                                              |
@@ -54,7 +54,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Isma_SM/v1.0_CD_SM_Prompt_Completo.md           | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Isma_SM_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                               |
 
 ---
-## @DUX (Dev Team) - Diseñadora UX/UI Estratégica y Consciente de la Seguridad
+## @Dory DUXIs (Dev Team) - Diseñadora UX/UI
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                       | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                                           |
 |---------|-------------|------------------|----------------------------------------------------------------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 2025-05-16  | (Desconocido)    | /AGENTES_DEFINICIONES_Y_PROMPTS/Dory_DUXIs_DevTeam/@DUX (Dev Team) - Diseñadora UX - UI v1.0.md | Definición Rol Concisa  | Versión inicial concisa de la definición de rol de DUX. Nombre de archivo original conservado por solicitud del usuario.                                                                    |
@@ -62,7 +62,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Dory_DUXIs_DevTeam/v1.0_DUX_Prompt_Completo.md              | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Dory_DUXIs_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                               |
 
 ---
-## @EDF (Dev Team) - Especialista en Desarrollo Frontend Avanzado y Arquitecto de UI
+## @Melody - DevFS (Dev Team) - Especialista en Desarrollo Frontend
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                       | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                                               |
 |---------|-------------|------------------|----------------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1     | 2025-05-19  | Gemy (IA)        | /AGENTES_DEFINICIONES_Y_PROMPTS/Melody_DevFS_DevTeam/@EDF (Dev Team) - Especialista en Desarrollo Frontend v0.1.md | Definición Rol Concisa | Versión inicial concisa de la definición de rol de EDF. Renombrado desde 'Melody_Frontend_DevTeam/@EDF (Dev Team) - Especialista en Desarrollo Frontend v0.1.md'. Nombre de archivo original conservado por solicitud del usuario para los archivos con este formato. |
@@ -70,7 +70,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Melody_DevFS_DevTeam/v1.0_EDF_Prompt_Completo.md             | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Melody_DevFS_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                                |
 
 ---
-## @EDB (Dev Team) - Especialista en Desarrollo Backend Robusto y Seguro
+## @Topa - DevBS (Dev Team) - Especialista en Desarrollo Backend
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                     | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                                                    |
 |---------|-------------|------------------|--------------------------------------------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 2025-05-16  | (Desconocido)    | /AGENTES_DEFINICIONES_Y_PROMPTS/Topa_DevBS_DevTeam/@EDB (Dev Team) - Especialista en Desarrollo Backend.md | Definición Rol Concisa  | Versión inicial concisa de la definición de rol de EDB. Renombrado desde 'Topa_Backend_DevTeam/@EDB (Dev Team) - Especialista en Desarrollo Backend.md'. Nombre de archivo original conservado por solicitud del usuario para los archivos con este formato. |
@@ -78,7 +78,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Topa_DevBS_DevTeam/v1.0_EDB_Prompt_Completo.md             | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Topa_DevBS_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                                |
 
 ---
-## @EPS (Dev Team) - Especialista en Pruebas de Software y Aseguramiento de Calidad Estratégico
+## @Voro (Dev Team) - Especialista en Pruebas de Software (QA)
 | Versión | Fecha       | Modificado por   | Ruta del Archivo                                                                    | Tipo de Archivo         | Resumen de Cambios Significativos                                                                                                                                                                 |
 |---------|-------------|------------------|-------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 2025-05-16  | (Desconocido)    | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/@EPS (Dev Team) - Especialista en Pruebas de Software (QA).md | Definición Rol Concisa | Versión inicial concisa de la definición de rol de QA. Renombrado desde 'Voro_QA_DevTeam/@EPS (Dev Team) - Especialista en Pruebas de Software (QA).md'. Nombre de archivo original conservado por solicitud del usuario para los archivos con este formato. |
@@ -110,5 +110,6 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 | `/Fuente_Conocimiento_Agentes/Roo Code Docs/Versiones anteriores/Prompt_Principal_Roo_Code v0.1.md`                               | v0.1       | (Desconocido)| (Desconocido)      | Documentation Roo Code (Prompt Ant.)          | Versión 0.1 del prompt principal de Roo Code. Añadido al historial.                                                                                                                                               |
 | `/Fuente_Conocimiento_Agentes/Roo Code Docs/Versiones anteriores/Prompt.md`                                                       | v0.x (Est.)| (Desconocido)| (Desconocido)      | Documentación Roo Code (Prompt Ant.)          | Versión anterior genérica de un prompt. Añadido al historial.                                                                                                                                                     |
 | `/Fuente_Conocimiento_Agentes/Roo Code Docs/Versiones anteriores/Roo Code dentro de VSCode.md`                                      | v0.x (Est.)| (Desconocido)| (Desconocido)      | Documentación Roo Code (Ant.)                 | Versión anterior de documentación sobre Roo Code en VSCode. Añadido al historial.                                                                                                                                |
+| `/agent_version_history.md`<agent_version_history.md:1>                                                              | 1.2        | 2025-05-19  | Gemy (IA)          | Historial de Versionamiento                 | Actualización del propio historial de versiones con una nueva entrada.                                                                                                                                            |
 
 ---
