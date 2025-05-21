@@ -2,19 +2,19 @@
 nombre_archivo: agent_version_history.md
 titulo_documento: Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
 proyecto: Sistema de Agentes IA para Roo Code
-version_documento: "1.3"
+version_documento: "1.4"
 fecha_creacion: "2025-05-17"
 creado_por: "Ranndy Salas U."
-ultima_modificacion: "2025-05-20 17:19:45 CST"
+ultima_modificacion: "2025-05-20 18:02:18 CST"
 modificado_por: "Gemy (Meta-Arquitecto IA)"
 propietario_funcional: "Ranndy Salas U."
 estado_documento: "Activo"
-resumen_ultima_gestion: "Actualización de prompts de Pepe (PO) y Dory (DUXIs) incluyendo detalles de interacción."
+resumen_ultima_gestion: "Actualización del prompt de Voro (QAs) a la versión 1.1. Inclusión de Karito y directrices de comunicación inter-agente."
 ---
 
 # Historial de Versionamiento de Definiciones y Prompts de Agentes de IA
 
-**Última Actualización:** 2025-05-20 17:19:45 CST
+**Última Actualización:** 2025-05-20 18:02:18 CST
 
 **Autor del Sistema y Prompts:** Ranndy Salas Umaña
 
@@ -85,6 +85,7 @@ Este documento rastrea las versiones de las definiciones de rol y los prompts de
 |---------|-------------|------------------|-------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0     | 2025-05-16  | (Desconocido)    | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/@EPS (Dev Team) - Especialista en Pruebas de Software (QA).md | Definición Rol Concisa | Versión inicial concisa de la definición de rol de QA. Renombrado desde 'Voro_QA_DevTeam/@EPS (Dev Team) - Especialista en Pruebas de Software (QA).md'. Nombre de archivo original conservado por solicitud del usuario para los archivos con este formato. |
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/v1.0_Voro_QAs_Agente_IA_Prompt.md    | Prompt Completo V1.0    | Creación inicial del prompt completo. Renombrado desde 'v1.0_EPS_QA_Prompt_Completo.md'. Define rol de QA estratégico, con foco en pruebas integrales (funcionales, seguridad OWASP, rendimiento, accesibilidad, datos), "shift-left testing", uso de herramientas/terminal y personalidad de chat. |
+| 1.1     | 2025-05-20  | @Gemy            | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/v1.1_Voro_QAs_Agente_IA_Prompt.md     | Prompt Completo V1.1    | Actualización a la versión 1.1. Inclusión de Karito, ajuste de nomenclatura de agentes, y adición de directrices para comunicación inter-agente con 'insert_content line: 0'. |
 | 1.0     | 2025-05-17  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/1.0_Voro_EPS_Agente_IA_Prompt.md     | Prompt Completo V1.0 (Ant.)| Versión anterior/alternativa del Prompt Completo V1.0, no renombrada para mantener el registro histórico. Fecha de creación posterior a 'v1.0_EPS_QA_Prompt_Completo.md' pero nomenclatura de versión ligeramente diferente. |
 | 1.0     | 2025-05-16  | Ranndy Salas U.  | /AGENTES_DEFINICIONES_Y_PROMPTS/Voro_QAs_DevTeam/v1.0_EPS_QA_Prompt_Completo.md       | Prompt Completo V1.0 (Ant.)| Versión anterior/duplicada del Prompt Completo V1.0, renombrada a 'v1.0_Voro_QAs_Agente_IA_Prompt.md'. Mantenido en el historial por registro.                                |
 
