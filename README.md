@@ -48,6 +48,9 @@ La organización de este repositorio es crucial para entender y gestionar las de
 │   └── /Voro_QAs_DevTeam/       # Quality Assurance Specialist
 │       └── vx.x_Voro_QAs_Agente_IA_Prompt.md
 │       └── ...
+│   ├── /Karito_Mark_Neu/        # Agentes Especializados de Negocio / Marketing
+│   │   └── vx.x_Karito_MK&N_Agente_IA_Prompt.md
+│   │   └── ...
 │
 ├── /INSTRUCCIONES_BASE_ROOCODE/ # Contiene las directrices fundamentales para todos los agentes
 │   └── v1.0_RooCode_Directrices_Globales_Agente_Maestro.md # Instrucciones globales para Roo Code
@@ -113,7 +116,7 @@ La implementación de estos agentes como Modos Personalizados en Roo Code sigue 
         * Seleccione el archivo de la versión más reciente del prompt completo (ej. `vx.x_Pepe_PO_Agente_IA_Prompt.md`).
         * **En Roo Code (preferentemente editando el archivo `.roomodes` del proyecto que el ACP generará, o el `custom_modes.json` global si se desea un modo global):**
             * **`slug`:** Defina un slug único y descriptivo (ej. "acp-project-setup", "po-pepe", "sm-isma", "dux-dory", "devfs-melody", "devbs-topa", "qas-voro").
-            * **`name`:** Use el nombre descriptivo y amigable del agente (ej. "⚙️ ACP Configurator", "🦉 @Pepe (PO)", " facilita @Isma (SM)", "🎨 @Dory (DUXIs - Dev Team)", "💻 @Melody (DevFS - Dev Team)", "🔩 @Topa (DevBS - Dev Team)", "🧪 @Voro (QAs - Dev Team)").
+            * **`name`:** Use el nombre descriptivo y amigable del agente (ej. "⚙️ ACP Configurator", "🦉 @Pepe (PO)", " facilita @Isma (SM)", "🎨 @Dory (DUXIs - Dev Team)", "💻 @Melody (DevFS - Dev Team)", "🔩 @Topa (DevBS - Dev Team)", "🧪 @Voro (QAs - Dev Team)", "📈 @Karito (MK&N)").
             * **`roleDefinition`:** Copie el contenido de la **Sección 1 ("Definición del Rol, Experiencia y Personalidad")** del archivo de prompt del agente.
             * **`whenToUse`:** Copie el contenido de la **Sección 2 ("Cuándo Usar este Modo")** del archivo de prompt del agente.
             * **`groups`:** Configure los toolsets de Roo Code (`Read Group`, `Edit Group`, etc.) y las restricciones `fileRegex` para el permiso de edición, basándose en las herramientas que se espera que el agente utilice (detalladas en su Sección 3 de "Instrucciones Personalizadas"). Esto es CRUCIAL para la seguridad y el enfoque del agente.
